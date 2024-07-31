@@ -1,0 +1,125 @@
+<html lang="pt-BR">
+<head>
+ <meta charset="UTF-8">
+ <title>Allub Benefícios</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+ <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+ <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <section class='main'>
+        <div class='center'>
+            <div class="menu">
+                <div class="logo-menu">
+                    <a href="/"><img class="logo-foto" src="./images/images/allubLogo.png" /></a>
+                </div><!--logo-menu-->
+                <div class="items-menu">
+                    <a href="#">Inicio</a>
+                    <a href="#sobre-nos">Sobre nós</a>
+                    <!-- <a href="#">Depoimentos</a> -->
+                    <a class="contact-btn" href="https://w.app/allubempresas">Entre em Contato</a>
+                </div><!--items-menu-->
+                <div class="items-menu-mobile">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <div class="menu-mobile">
+                        <a href="#">Inicio</a>
+                        <a href="#sobre-nos">Sobre nós</a>
+                        <a class="contact-btn" href="https://w.app/allubempresas">Entre em Contato</a>
+                    </div>
+                </div>
+
+            </div><!--menu-->  
+            
+            <div class="mockup">
+                <h1>Transforme o ambiente de trabalho </h1>
+                <h2>Ofereça saúde e bem-estar aos seus funcionários com nossos pacotes de benefícios acessíveis e completos.</h2>
+                <br/>
+
+            </div><!--mockup-->
+        </div><!--center-->
+    </section><!--main-->
+
+    
+    <section class="logos-autismo">
+        <div class="center">
+            <img src="./images/images/foto1.avif" />
+            <img src="./images/images/foto2.avif" />
+            <img src="./images/images/foto3.avif" />
+            <img src="./images/images/foto4.jpg" />
+
+        </div><!--center-->
+
+    </section><!--logos-autismo-->
+
+    <section id="sobre-nos" section class="sobre-nos">
+        <div class="center">
+            <h2>Sobre Nós</h2>
+            <p>Estamos preocupados com o bem-estar dos seus funcionários e aumentar a produtividade da sua empresa</p>
+
+            <div class="diferenciais">
+                <div class="box-diferenciais">
+                    <img class="icon-color" src="./images/images/1.png" />
+                    <h3>Aumente a Produtividade</h3>
+                    <h4>Invista no bem-estar dos seus funcionários e veja resultados imediatos. Empresas saudáveis são mais produtivas e engajadas.</h4>
+                </div><!--box-diferenciais-->
+                <div class="box-diferenciais">
+                    <img class="icon-color" src="./images/images/2.png" />
+                    <h3>Menos Faltas, Mais Resultados</h3>
+                    <h4>Benefícios de saúde que mantêm sua equipe presente e motivada, garantindo maior produtividade.</h4>
+                </div><!--box-diferenciais-->
+                <div class="box-diferenciais">
+                    <img class="icon-color" src="./images/images/3.png" />
+                    <h3>Retenha Talentos</h3>
+                    <h4>Funcionários felizes ficam mais tempo. Nossos pacotes de saúde valorizam sua equipe, aumentando a satisfação e a lealdade.</h4>
+                </div><!--box-diferenciais-->
+
+            </div><!--diferenciais-->
+        </div><!--center-->
+
+    </section><!--sobre-nos -->
+
+    <section class="cta">
+
+        
+        <h2>Garanta o bem-estar da sua equipe agora!</h2>
+        <h4>Ficou interessado ? Clique abaixo e fale com nosso time</h4>
+        <br/>
+        <a href="https://w.app/allubempresas">Saiba Mais</a>
+        
+
+    </section><!--cta-->
+
+    <footer class="footer">
+        <div class='center-footer'>
+            <div class="menu-footer">
+                <div class="logo-menu-footer">
+                    <p>Allub revolucionando o bem-estar da sua equipe.</p>
+                </div><!--logo-menu-->
+                <div class="items-menu-footer">
+                    <a href="#">Inicio</a>
+                    <a href="#sobre-nos">Sobre nós</a>
+                    <!-- <a href="#">Depoimentos</a> -->
+                    <a class="contact-btn" href="https://w.app/allubparceiros">Seja um parceiro</a>
+                </div><!--items-menu-->
+
+            </div><!--menu-->  
+    </footer>
+
+    <script>
+        var menuBtn = document.querySelector('.items-menu-mobile i');
+        menuBtn.addEventListener('click',()=>{
+            let itemsMenu =document.querySelector('.menu-mobile');
+            if(itemsMenu.classList.contains('show')){
+                itemsMenu.classList.remove('show');
+                itemsMenu.classList.add('hide');
+            }else{
+                itemsMenu.classList.remove('hide');
+                itemsMenu.classList.add('show');
+            }
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,371 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: #FBFADA ;
+
+
+}
+
+.center {
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+section.main{
+    /* background-image: url('./images/images/bg.png'); */
+    background-position: center;
+    background-size: cover;
+    min-height: 200px;
+    padding: 20px 0 20px 0;
+    background-color: #FBFADA;
+}
+
+.menu{
+    display: flex;
+    width: 100%;
+}
+
+.logo-menu{
+    width: 50%;
+}
+
+.logo-foto{
+    width: 90px;
+    height: 60px;
+    padding-left: 7px;
+    
+}
+.items-menu{
+    width: 50%;
+    text-align: right;
+}
+
+.items-menu a{
+    font-weight: bold;
+    color: #12372A;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.items-menu a:hover{
+    border-bottom: 2px solid #12372A;
+
+}
+
+.items-menu a.contact-btn{
+    background-color: #12372A;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.items-menu a.contact-btn:hover{
+    border: 0;
+}
+
+
+
+.mockup{
+    background-color: #FBFADA ;
+    display: block;
+    width: 100%;
+    color: #12372A;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.mockup h1{
+    font-size: 50px;
+}
+
+.mockup img{
+    max-width: 100%;
+}
+
+
+section.logos-autismo img{
+    background-color: #FBFADA;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: calc(100% / 4);
+}
+
+section.sobre-nos {
+    padding: 40px 0;
+    background-color: #FBFADA ;
+}
+
+section.sobre-nos > .center{
+    max-width: 1280px;
+    
+}
+
+section.sobre-nos > .center > h2{
+    font-size: 64px;
+    color: #12372A;
+    text-align: center;
+    width: 100%;
+
+}
+
+section.sobre-nos > .center > p{
+    font-size: 18px;
+    color: #12372A;
+    text-align: center;
+    width: 100%;
+}
+
+.diferenciais {
+    display: flex;
+    margin-top: 60px;
+}
+
+.box-diferenciais{
+    background-color: #12372A;
+    box-shadow: 0px 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.box-diferenciais h3{
+    background-color: #12372A;
+    font-size: 28px;
+    color: #FBFADA;
+    margin: 20px 0;
+}
+
+.box-diferenciais h4{
+    background-color: #12372A;
+    color: #FBFADA;
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 20px ;
+}
+
+.icon-color{
+    background-color: #12372A;
+
+}
+section.cta{
+    /* background-image: url('./images/images/banner_meio.svg'); */
+    background-color: #FBFADA;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    min-height: 200px;
+    color: #12372A;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+section.cta h2{
+    font-size: 40px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 8px 15px;
+    background: #12372A;
+    text-decoration: none;
+    font-size: 18px;
+    color: #FBFADA;
+    font-weight: bold;
+    border-radius: 8px;
+
+}
+
+footer{
+    margin-top: 50px;
+    padding: 40;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    background-color: #12372A ;
+
+
+}
+
+.center-footer {
+    display: flex;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: #12372A ;
+}
+
+
+
+.menu-footer{
+    display: flex;
+    width: 100%;
+    background-color: #12372A ;
+}
+
+.logo-menu-footer{
+    width: 50%;
+    background-color: #12372A ;
+}
+
+.logo-menu-footer p{
+    margin-top: 10px;
+    background-color: #12372A ;
+    color: #FBFADA;
+    
+}
+.items-menu-footer{
+    background-color: #12372A ;
+    width: 50%;
+    text-align: right;
+    background-color: #12372A ;
+    color: #FBFADA;
+
+}
+
+.items-menu-footer a{
+    background-color: #12372A ;
+    font-weight: bold;
+    color: #FBFADA;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.items-menu-footer a:hover{
+    border-bottom: 2px solid #FBFADA;
+
+}
+
+.items-menu-footer a.contact-btn{
+    background-color: #FBFADA;
+    color: #12372A;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.items-menu-footer a.contact-btn:hover{
+    border: 0;
+}
+
+
+
+.items-menu-mobile {
+    display: none;
+}
+
+@media screen  and (max-width: 768px) {
+
+
+    .items-menu-mobile {
+        display: block;
+    }
+
+    .items-menu-mobile i{
+        display: inline-block;
+        color: #12372A;
+        position: right;
+        margin-top: 25px;
+        margin-left: 160px;
+        top: 12px;
+        font-size: 23px;
+        cursor: pointer;
+    }
+    .menu-mobile{
+        opacity: 0;
+        transition: 1s;
+        position: absolute;
+        left: 0;
+        top: 95px;
+        background-color: #FBFADA;
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+    }
+
+
+    .show{
+        opacity: 1;
+    }
+
+    .hide{
+        opacity: 0;
+    }
+
+
+    .menu-mobile a{
+        text-align: center;
+        background-color: #12372A;
+        color: #FBFADA;
+        display: block;
+        margin: 10px 0;
+        text-decoration: none;
+        font-weight: bold;
+        border-bottom: 1px solid #FBFADA;
+        padding: 8px 0;
+    }
+
+    
+    section.main .items-menu{
+        display: none;
+    }
+
+    .logo-menu-footer{
+        margin-top: 10px;
+        background-color: #12372A ;
+        color: #FBFADA;
+        display: inline;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .items-menu-footer{
+        width: 100%;
+        text-align: center;
+    }
+
+    .items-menu-footer a{
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+
+
+    .diferenciais {
+        flex-wrap: wrap;
+        
+    }
+
+    .box-diferenciais{
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 18px;
+    }
+
+    section.logos-autismo > .center {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    section.logos-autismo img{
+        max-width: 300px;
+        width: 100%;
+    }
+}
